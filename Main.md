@@ -80,3 +80,47 @@ Click on Next, Review and Submit
 
 ![image](https://github.com/Asma09Akram/Elastic-BeanStalk-Blue-Green-Deployment/assets/124654068/6196ff39-d621-406f-9a4b-a83993c4e162)
 
+![image](https://github.com/Asma09Akram/Elastic-BeanStalk-Blue-Green-Deployment/assets/124654068/3df63cc4-85af-46b9-9d41-a3423582b065)
+
+* Scroll down to Managed platform updates section.
+
+* Uncheck the Managed updated checkbox
+
+![image](https://github.com/Asma09Akram/Elastic-BeanStalk-Blue-Green-Deployment/assets/124654068/58a49240-b22e-4c3e-bc6a-6294d107a5d2)
+
+* Once the my_application_blue_env is provisioned, you will get a page with Health status as ok and with a Domain for the environment.
+
+![image](https://github.com/Asma09Akram/Elastic-BeanStalk-Blue-Green-Deployment/assets/124654068/0620ba10-83bf-4725-94ea-059ce9c77cc5)
+
+![image](https://github.com/Asma09Akram/Elastic-BeanStalk-Blue-Green-Deployment/assets/124654068/82a8740b-77e3-4a36-9cf1-f4b2e68f12a6)
+
+### Task 4: Creating Elastic Beanstalk Green Environment
+
+* Create green environment
+![image](https://github.com/Asma09Akram/Elastic-BeanStalk-Blue-Green-Deployment/assets/124654068/4ea84cf5-740a-45aa-9230-b6ee75cecce1)
+
+* Platform as PHP
+
+![image](https://github.com/Asma09Akram/Elastic-BeanStalk-Blue-Green-Deployment/assets/124654068/a608e8e3-5568-4699-9b43-30537069a37f)
+
+![image](https://github.com/Asma09Akram/Elastic-BeanStalk-Blue-Green-Deployment/assets/124654068/b4a4df25-4a7f-4dd7-b607-f426305da1fa)
+
+
+![image](https://github.com/Asma09Akram/Elastic-BeanStalk-Blue-Green-Deployment/assets/124654068/d407597b-d995-49b3-982b-16dc366f997b)
+
+default VPC
+![image](https://github.com/Asma09Akram/Elastic-BeanStalk-Blue-Green-Deployment/assets/124654068/d5eb6817-aa77-4518-b2bc-8448774febc3)
+
+Check the Public IP address checkbox
+
+Check the us-east-1a and us-east-1b subnets checkbox under Instance subnets.
+
+![image](https://github.com/Asma09Akram/Elastic-BeanStalk-Blue-Green-Deployment/assets/124654068/a89805e7-2240-4d96-ba51-5ef936288423)
+
+![image](https://github.com/Asma09Akram/Elastic-BeanStalk-Blue-Green-Deployment/assets/124654068/23fc12c8-7b3e-4fa9-9b5f-a508fe89018c)
+
+Managed Platform Updates
+
+![image](https://github.com/Asma09Akram/Elastic-BeanStalk-Blue-Green-Deployment/assets/124654068/acbe1053-d31d-4c94-9853-5bf4b8c607ee)
+
+
