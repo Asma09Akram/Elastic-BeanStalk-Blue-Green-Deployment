@@ -99,9 +99,9 @@ Click on Next, Review and Submit
 * Create green environment
 ![image](https://github.com/Asma09Akram/Elastic-BeanStalk-Blue-Green-Deployment/assets/124654068/4ea84cf5-740a-45aa-9230-b6ee75cecce1)
 
-* Platform as PHP
+* In the Platform, under Managed platform, choose Node.js from the dropdown.
 
-![image](https://github.com/Asma09Akram/Elastic-BeanStalk-Blue-Green-Deployment/assets/124654068/a608e8e3-5568-4699-9b43-30537069a37f)
+![image](https://github.com/Asma09Akram/Elastic-BeanStalk-Blue-Green-Deployment/assets/124654068/72c155f6-18dc-4812-8d32-c0896c61bf95)
 
 ![image](https://github.com/Asma09Akram/Elastic-BeanStalk-Blue-Green-Deployment/assets/124654068/b4a4df25-4a7f-4dd7-b607-f426305da1fa)
 
@@ -123,4 +123,5 @@ Managed Platform Updates
 
 ![image](https://github.com/Asma09Akram/Elastic-BeanStalk-Blue-Green-Deployment/assets/124654068/acbe1053-d31d-4c94-9853-5bf4b8c607ee)
 
+![image](https://github.com/Asma09Akram/Elastic-BeanStalk-Blue-Green-Deployment/assets/124654068/6df7f841-4e68-4e21-8cf3-271ea2ddc112)
 
