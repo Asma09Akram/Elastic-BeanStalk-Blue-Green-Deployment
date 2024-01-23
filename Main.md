@@ -43,3 +43,40 @@
 ![image](https://github.com/Asma09Akram/Elastic-BeanStalk-Blue-Green-Deployment/assets/124654068/1b894131-8fe8-435e-b777-60c040678988)
 
 Click on Next, Review and Submit
+
+2.11 Once everything is successfully done, You will be able to see the Application
+
+![image](https://github.com/Asma09Akram/Elastic-BeanStalk-Blue-Green-Deployment/assets/124654068/866b92f0-74bf-43cf-b58e-505d4a96657f)
+
+
+### Task 3 Create Elastic Beanstalk Blue Environment
+
+3.1 Click on Application which got created and Click on Create an Environment
+
+![image](https://github.com/Asma09Akram/Elastic-BeanStalk-Blue-Green-Deployment/assets/124654068/21434b0c-ce68-48de-8022-f3fd8ad9b1bd)
+
+3.2 Select Web server environment
+
+![image](https://github.com/Asma09Akram/Elastic-BeanStalk-Blue-Green-Deployment/assets/124654068/fc4a3fc7-29d1-4792-a18c-3d6426c8779f)
+
+3.3 Give the Environment Name as MyApplication-Blue-Environment
+
+![image](https://github.com/Asma09Akram/Elastic-BeanStalk-Blue-Green-Deployment/assets/124654068/83035399-6977-456a-b3eb-f1f06bc96932)
+
+3.4 Select PHP as Platform 
+
+![image](https://github.com/Asma09Akram/Elastic-BeanStalk-Blue-Green-Deployment/assets/124654068/d883e928-110c-4f14-bdf2-505a72642c9b)
+
+3.5 Click on Next, in Configure service access select Use an existing service role as aws-elasticbeanstalk-service-role, EC2-Role
+
+![image](https://github.com/Asma09Akram/Elastic-BeanStalk-Blue-Green-Deployment/assets/124654068/f842157a-dd39-4378-a3ec-335a2e2dec93)
+
+![image](https://github.com/Asma09Akram/Elastic-BeanStalk-Blue-Green-Deployment/assets/124654068/d11ccc2f-020d-406b-965a-049aced08857)
+
+3.6 Select Default VPC
+![image](https://github.com/Asma09Akram/Elastic-BeanStalk-Blue-Green-Deployment/assets/124654068/113ec421-79ab-4aab-aefc-096bb2b5a0da)
+
+* Instance Setting, Public IP Address
+
+![image](https://github.com/Asma09Akram/Elastic-BeanStalk-Blue-Green-Deployment/assets/124654068/6196ff39-d621-406f-9a4b-a83993c4e162)
+
