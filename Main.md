@@ -125,3 +125,38 @@ Managed Platform Updates
 
 ![image](https://github.com/Asma09Akram/Elastic-BeanStalk-Blue-Green-Deployment/assets/124654068/6df7f841-4e68-4e21-8cf3-271ea2ddc112)
 
+![image](https://github.com/Asma09Akram/Elastic-BeanStalk-Blue-Green-Deployment/assets/124654068/d099aa7e-4660-4e75-93c6-196791ec5cd2)
+
+### Task 5: Swapping the Domains from Blue to Green
+
+In this task, we are going to perform the Domain swap, which redirects the traffic from the blue environment to the green environment. By swapping the Domains, users can make the updated version of the application active and start serving live traffic from the green environment. This task ensures a seamless transition from the old version to the new version without causing any downtime for the users.
+
+Now we have two environments, namely whizlabs_blue_environment with PHP and whizlabs_green_environment with Node.js
+
+Next, we will need to swap the Domains.
+
+In the Elastic Beanstalk application dashboard from whizlabs_green_env, click on Actions and select Swap environment domain.
+
+
+
+![image](https://github.com/Asma09Akram/Elastic-BeanStalk-Blue-Green-Deployment/assets/124654068/2b29254d-2d03-402d-85ad-02653717665b)
+
+![image](https://github.com/Asma09Akram/Elastic-BeanStalk-Blue-Green-Deployment/assets/124654068/44f52a57-c302-4dc5-b5a2-638d545b9ad6)
+
+![image](https://github.com/Asma09Akram/Elastic-BeanStalk-Blue-Green-Deployment/assets/124654068/5c2ead76-8ff0-4824-b353-c748d4c545cb)
+
+
+The swap will take a few seconds to complete. You will see the Successfully completed status under Recent Events.
+
+![image](https://github.com/Asma09Akram/Elastic-BeanStalk-Blue-Green-Deployment/assets/124654068/0456d4e9-59cc-4bee-8335-5b0efcd03391)
+
+
+Once the Swap is completed, note that the Domain of the whizlabs_green_env has been replaced with that of the whizlabs_blue_environment.
+
+![image](https://github.com/Asma09Akram/Elastic-BeanStalk-Blue-Green-Deployment/assets/124654068/daec3b1d-87d0-4698-957b-fad1707fd141)
+
+Now Click on the Domain (which was the Domain for the whizlabs_blue_environment) and notice the content of whizlabs_green_env instead.
+
+![image](https://github.com/Asma09Akram/Elastic-BeanStalk-Blue-Green-Deployment/assets/124654068/9545bf85-3f51-4619-b837-76acb206eb33)
+
+![image](https://github.com/Asma09Akram/Elastic-BeanStalk-Blue-Green-Deployment/assets/124654068/35891932-7d99-4080-b983-ca6ee4adcf04)
