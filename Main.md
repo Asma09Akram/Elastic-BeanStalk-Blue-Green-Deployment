@@ -166,7 +166,7 @@ Once the Swap is completed, note that the Domain of the  myapplication_green_env
 
 ![image](https://github.com/Asma09Akram/Elastic-BeanStalk-Blue-Green-Deployment/assets/124654068/daec3b1d-87d0-4698-957b-fad1707fd141)
 
-Now Click on the Domain (which was the Domain for the myapplication_blue_environment) and notice the content of myapplication_green_environment instead.
+Now Click on the Domain (which was the Domain for the MyApplication-Blue-Environment) and notice the content of myapplication_green_environment instead.
 
 ![image](https://github.com/Asma09Akram/Elastic-BeanStalk-Blue-Green-Deployment/assets/124654068/9545bf85-3f51-4619-b837-76acb206eb33)
 
