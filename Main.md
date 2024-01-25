@@ -110,11 +110,12 @@ There will be two environments.
 ![image](https://github.com/Asma09Akram/Elastic-BeanStalk-Blue-Green-Deployment/assets/124654068/4ea84cf5-740a-45aa-9230-b6ee75cecce1)
 
 * In the Platform, under Managed platform, choose Node.js from the dropdown.
-
+* 
 ![image](https://github.com/Asma09Akram/Elastic-BeanStalk-Blue-Green-Deployment/assets/124654068/72c155f6-18dc-4812-8d32-c0896c61bf95)
 
 ![image](https://github.com/Asma09Akram/Elastic-BeanStalk-Blue-Green-Deployment/assets/124654068/b4a4df25-4a7f-4dd7-b607-f426305da1fa)
 
+4.4  Click on Next, in Configure service access select Use an existing service role as aws-elasticbeanstalk-service-role, EC2-Role
 
 ![image](https://github.com/Asma09Akram/Elastic-BeanStalk-Blue-Green-Deployment/assets/124654068/d407597b-d995-49b3-982b-16dc366f997b)
 
