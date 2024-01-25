@@ -110,19 +110,20 @@ There will be two environments.
 ![image](https://github.com/Asma09Akram/Elastic-BeanStalk-Blue-Green-Deployment/assets/124654068/4ea84cf5-740a-45aa-9230-b6ee75cecce1)
 
 * In the Platform, under Managed platform, choose Node.js from the dropdown.
-* 
+  
 ![image](https://github.com/Asma09Akram/Elastic-BeanStalk-Blue-Green-Deployment/assets/124654068/72c155f6-18dc-4812-8d32-c0896c61bf95)
+
+4.4  Click on Next, in Configure service access select Use an existing service role as aws-elasticbeanstalk-service-role, EC2-Role
 
 ![image](https://github.com/Asma09Akram/Elastic-BeanStalk-Blue-Green-Deployment/assets/124654068/b4a4df25-4a7f-4dd7-b607-f426305da1fa)
 
-4.4  Click on Next, in Configure service access select Use an existing service role as aws-elasticbeanstalk-service-role, EC2-Role
 
 ![image](https://github.com/Asma09Akram/Elastic-BeanStalk-Blue-Green-Deployment/assets/124654068/d407597b-d995-49b3-982b-16dc366f997b)
 
 default VPC
 ![image](https://github.com/Asma09Akram/Elastic-BeanStalk-Blue-Green-Deployment/assets/124654068/d5eb6817-aa77-4518-b2bc-8448774febc3)
 
-Check the Public IP address checkbox
+4.5 Check the Public IP address checkbox
 
 Check the us-east-1a and us-east-1b subnets checkbox under Instance subnets.
 
