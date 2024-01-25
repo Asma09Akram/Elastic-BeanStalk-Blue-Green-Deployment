@@ -144,11 +144,11 @@ Managed Platform Updates
 Now we will execute a Domain swap to reroute traffic from the blue environment to the green environment. By conducting this Domain swap, users can activate the updated version of the application and commence serving live traffic from the green environment. This activity guarantees a smooth transition from the old version to the new version, ensuring no downtime for users.
 
 
-Now we have two environments, namely myapplication_blue_environment with PHP and myapplication_green_environment with Node.js
+Now we have two environments, namely myapplication_blue_environment with PHP and Myappgreenenvironment-env with Node.js
 
 Next, we will need to swap the Domains.
 
-In the Elastic Beanstalk application dashboard from myapplication_green_environment, click on Actions and select Swap environment domain.
+In the Elastic Beanstalk application dashboard from Myappgreenenvironment-env, click on Actions and select Swap environment domain.
 
 ![image](https://github.com/Asma09Akram/Elastic-BeanStalk-Blue-Green-Deployment/assets/124654068/2b29254d-2d03-402d-85ad-02653717665b)
 
@@ -162,11 +162,11 @@ The swap will take a few seconds to complete. You will see the Successfully comp
 ![image](https://github.com/Asma09Akram/Elastic-BeanStalk-Blue-Green-Deployment/assets/124654068/0456d4e9-59cc-4bee-8335-5b0efcd03391)
 
 
-Once the Swap is completed, note that the Domain of the  myapplication_green_environment has been replaced with that of the myapplication_blue_environment.
+Once the Swap is completed, note that the Domain of the  Myappgreenenvironment-env has been replaced with that of the myapplication_blue_environment.
 
 ![image](https://github.com/Asma09Akram/Elastic-BeanStalk-Blue-Green-Deployment/assets/124654068/daec3b1d-87d0-4698-957b-fad1707fd141)
 
-Now Click on the Domain (which was the Domain for the MyApplication-Blue-Environment) and notice the content of myapplication_green_environment instead.
+Now Click on the Domain (which was the Domain for the MyApplication-Blue-Environment) and notice the content of Myappgreenenvironment-env instead.
 
 ![image](https://github.com/Asma09Akram/Elastic-BeanStalk-Blue-Green-Deployment/assets/124654068/9545bf85-3f51-4619-b837-76acb206eb33)
 
