@@ -148,7 +148,7 @@ Now we have two environments, namely myapplication_blue_environment with PHP and
 
 Next, we will need to swap the Domains.
 
-In the Elastic Beanstalk application dashboard from Myappgreenenvironment-env, click on Actions and select Swap environment domain.
+5.1 In the Elastic Beanstalk application dashboard from Myappgreenenvironment-env, click on Actions and select Swap environment domain.
 
 ![image](https://github.com/Asma09Akram/Elastic-BeanStalk-Blue-Green-Deployment/assets/124654068/2b29254d-2d03-402d-85ad-02653717665b)
 
@@ -157,16 +157,16 @@ In the Elastic Beanstalk application dashboard from Myappgreenenvironment-env, c
 ![image](https://github.com/Asma09Akram/Elastic-BeanStalk-Blue-Green-Deployment/assets/124654068/5c2ead76-8ff0-4824-b353-c748d4c545cb)
 
 
-The swap will take a few seconds to complete. You will see the Successfully completed status under Recent Events.
+5.2 The swap will take a few seconds to complete. You will see the Successfully completed status under Recent Events.
 
 ![image](https://github.com/Asma09Akram/Elastic-BeanStalk-Blue-Green-Deployment/assets/124654068/0456d4e9-59cc-4bee-8335-5b0efcd03391)
 
 
-Once the Swap is completed, note that the Domain of the  Myappgreenenvironment-env has been replaced with that of the myapplication_blue_environment.
+5.3 Once the Swap is completed, note that the Domain of the  Myappgreenenvironment-env has been replaced with that of the myapplication_blue_environment.
 
 ![image](https://github.com/Asma09Akram/Elastic-BeanStalk-Blue-Green-Deployment/assets/124654068/daec3b1d-87d0-4698-957b-fad1707fd141)
 
-Now Click on the Domain (which was the Domain for the MyApplication-Blue-Environment) and notice the content of Myappgreenenvironment-env instead.
+5.4 Now Click on the Domain (which was the Domain for the MyApplication-Blue-Environment) and notice the content of Myappgreenenvironment-env instead.
 
 ![image](https://github.com/Asma09Akram/Elastic-BeanStalk-Blue-Green-Deployment/assets/124654068/9545bf85-3f51-4619-b837-76acb206eb33)
 
