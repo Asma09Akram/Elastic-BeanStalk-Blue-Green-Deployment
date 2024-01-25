@@ -96,7 +96,17 @@ Click on Next, Review and Submit
 
 ### Task 4: Creating Elastic Beanstalk Green Environment
 
-4.1 Create green environment
+The green environment is an identical parallel environment running a different or updated version of the application. This environment allows users to deploy their code changes and test them separately from the blue environment, ensuring that the new version functions correctly before swapping the Domains.
+
+4.1 Click on the Application name to see the environments present.
+There will be two environments.
+
+4.2 click on Create new environment button.
+* Click on the Configure Environment page :
+* Select the Web server environment.
+* Enter Environment name as myapplication-green-env
+
+4.3 In the Platform, under Managed platform, choose Node.js from the dropdown.
 ![image](https://github.com/Asma09Akram/Elastic-BeanStalk-Blue-Green-Deployment/assets/124654068/4ea84cf5-740a-45aa-9230-b6ee75cecce1)
 
 * In the Platform, under Managed platform, choose Node.js from the dropdown.
