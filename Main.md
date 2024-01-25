@@ -96,7 +96,7 @@ Click on Next, Review and Submit
 
 ### Task 4: Creating Elastic Beanstalk Green Environment
 
-* Create green environment
+4.1 Create green environment
 ![image](https://github.com/Asma09Akram/Elastic-BeanStalk-Blue-Green-Deployment/assets/124654068/4ea84cf5-740a-45aa-9230-b6ee75cecce1)
 
 * In the Platform, under Managed platform, choose Node.js from the dropdown.
